@@ -1,0 +1,40 @@
+<style>
+	p{
+		width: 750px;
+	}
+	hr{
+		width: 750px;
+		text-align: left;
+	}
+	input{
+		width: 742px;
+	}
+	.alert{
+		background-color: yellow;
+		font-size: bold;
+		border: 1px solid black;
+		padding: 10px; 
+		margin-bottom: 20px;
+	}
+</style>
+<title>NetWatch</title>
+<p style="margin-left: 290px""><strong>NetWatch</strong></p>
+
+<p>We are a private research institution that systematically scans the Internet with the aim of grasping the contemporary vulnerability landscape.</p>
+
+<p style="margin-top: 25px; margin-bottom: 20px; margin-left: 325px;">⁂</p>
+
+<p>If you would like to opt out from any research conducted by the NetWatch, please use the form below.</p>
+
+<form action="" method="post">
+	<label for="domain">Domain(s):</label>
+    <div><input type="text" id="domain" name="domain" placeholder="ex: yourdomain.com or yourdomain.com,yourseconddomain.com" maxlength="250"></div>
+
+	<br>
+    <label  for="ip">IP(s) / CIDR block(s):</label>
+    <div><input type="text" id="ip" name="ip" placeholder="ex: 1.1.1.1 or 1.1.1.0/24" maxlength="250"></div>
+
+    <br>
+    <input type="submit">
+    <input type="hidden" name="a" id="a" value="delist">
+</form>
